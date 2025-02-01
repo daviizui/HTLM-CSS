@@ -1,0 +1,128 @@
+.articles-page {
+  height: auto;
+}
+
+.articles-cards-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+
+.card-page {
+  width: 98%;
+  height: 95vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: var(--background-section);
+  box-shadow: 10px 10px 41px 0px rgba(0, 0, 0, 0.7);
+}
+
+.card-page a {
+  margin: 3rem 0 0 8rem;
+  border: 1px solid var(--footer);
+  font-size: 1rem;
+  text-transform: uppercase;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+
+.card-page a:hover {
+  background-color: var(--footer);
+}
+
+.card-page hr {
+  background-color: var(--primary-color);
+  border-radius: 0.25rem;
+  height: 0.5em;
+  width: 10%;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.card-page h2 {
+  font-size: 3rem;
+  color: var(--primary-color);
+  text-align: center;
+  line-height: 3rem;
+  padding: 0 1.5rem 0 1.5rem;
+  margin-top: 2rem;
+}
+
+.card-img {
+  width: 50%;
+  height: 100%;
+  object-fit: cover;
+}
+.card-title-page {
+  font-size: 40rem;
+}
+
+.card-page__text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 3rem;
+}
+
+.card-page p {
+  font-size: 1.5rem;
+  color: var(--secondary-color);
+  text-align: justify;
+  line-height: 2.5rem;
+}
+
+.footer-page {
+  height: auto;
+}
+
+@media screen and (max-width: 767px) {
+  .articles-text {
+    padding: 1.5rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .articles-title {
+    font-size: 1.5rem;
+  }
+
+  .articles-underline {
+    width: 20%;
+    margin: 1rem 0 0 0;
+  }
+
+  .card-page {
+    max-width: 90%;
+    height: auto;
+    margin-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+  }
+  .card-page img {
+    width: 100%;
+  }
+
+  .card-page p {
+    font-size: 0.75rem;
+    line-height: 1.5rem;
+    padding: 0.5rem;
+  }
+
+  .card-page__text {
+    width: 100%;
+  }
+
+  .card-page h2 {
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+  }
+
+  .card-page hr {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+}
