@@ -49,6 +49,8 @@
   padding: 0.5rem;
   border-radius: 0.5rem;
   cursor: pointer;
+  text-decoration: none;
+  color: var(--secondary-color);
 }
 
 .card a:hover {
