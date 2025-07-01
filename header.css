@@ -1,5 +1,5 @@
 .header {
-  background-image: url(../img/banner\ .jpg);
+  background-image: url(/img/banner.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -91,7 +91,7 @@
   }
 
   .header__hamburguer-menu {
-    background-image: url(../img/bars-solid.svg);
+    background-image: url(/img/bars-solid.svg);
     display: inline-block;
     width: 1rem;
     height: 1rem;
